@@ -1,9 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
 	"fmt"
-	"github.com/jbenet/data"
 	"os"
+
+	"github.com/jbenet/data"
 )
 
 // This package (data/data) builds the `data` commandline tool.

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package data
 
 import (
@@ -5,9 +10,10 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"launchpad.net/goyaml"
 	"os"
 	"path"
+
+	"launchpad.net/goyaml"
 )
 
 type SerializedFile struct {

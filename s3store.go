@@ -1,11 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package data
 
 import (
 	"fmt"
-	"github.com/jbenet/s3"
-	"github.com/jbenet/s3/s3util"
 	"io"
 	"strings"
+
+	"github.com/jbenet/s3"
+	"github.com/jbenet/s3/s3util"
 )
 
 type S3Store struct {

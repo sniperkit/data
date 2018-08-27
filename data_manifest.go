@@ -1,13 +1,19 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package data
 
 import (
 	"bytes"
 	"fmt"
-	"github.com/gonuts/flag"
-	"github.com/jbenet/commander"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/gonuts/flag"
+	"github.com/jbenet/commander"
 )
 
 const ManifestFileName = ".data/Manifest"

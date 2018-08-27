@@ -1,9 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package data
 
 import (
-	"github.com/jbenet/commander"
 	"io/ioutil"
 	"path"
+
+	"github.com/jbenet/commander"
 )
 
 var cmd_data_list = &commander.Command{

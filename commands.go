@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package data
 
 import (
-	"github.com/gonuts/flag"
-	"github.com/jbenet/commander"
 	"strings"
 	"time"
+
+	"github.com/gonuts/flag"
+	"github.com/jbenet/commander"
 )
 
 var Cmd_data = &commander.Command{

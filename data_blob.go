@@ -1,13 +1,19 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package data
 
 import (
 	"bufio"
 	"fmt"
-	"github.com/gonuts/flag"
-	"github.com/jbenet/commander"
 	"io"
 	"os"
 	"path"
+
+	"github.com/gonuts/flag"
+	"github.com/jbenet/commander"
 )
 
 var cmd_data_blob = &commander.Command{

@@ -1,13 +1,19 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package data
 
 import (
 	"fmt"
-	"github.com/gonuts/flag"
-	"github.com/jbenet/commander"
 	"io"
 	"io/ioutil"
 	"os"
 	"strings"
+
+	"github.com/gonuts/flag"
+	"github.com/jbenet/commander"
 )
 
 var cmd_data_user = &commander.Command{

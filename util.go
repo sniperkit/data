@@ -1,12 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package data
 
 import (
 	"bufio"
 	"crypto/sha1"
 	"fmt"
-	"github.com/aeden/go-semver"
-	"github.com/dotcloud/docker/pkg/term"
-	"github.com/xeonx/timeago"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -17,6 +19,10 @@ import (
 	"strings"
 	"time"
 	"unicode"
+
+	"github.com/aeden/go-semver"
+	"github.com/dotcloud/docker/pkg/term"
+	"github.com/xeonx/timeago"
 )
 
 var Debug bool

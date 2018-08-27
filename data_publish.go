@@ -1,7 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package data
 
 import (
 	"fmt"
+
 	"github.com/gonuts/flag"
 	"github.com/jbenet/commander"
 )

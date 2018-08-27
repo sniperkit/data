@@ -1,15 +1,21 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package data
 
 import (
 	// "code.google.com/p/gcfg"
 	"fmt"
-	"github.com/gonuts/flag"
-	"github.com/jbenet/commander"
 	"io"
 	"os"
 	"os/exec"
 	"os/user"
 	"strings"
+
+	"github.com/gonuts/flag"
+	"github.com/jbenet/commander"
 )
 
 // WARNING: the config format will be ini eventually. Go parsers
